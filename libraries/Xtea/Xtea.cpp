@@ -3,8 +3,12 @@
   Written by Frank Kienast in November, 2010
 */
 
-
+#if defined(ARDUINO) && ARDUINO >= 100
 #include "Arduino.h"
+#else
+#include "WProgram.h"
+#endif
+
 #include "Xtea.h"
 
 #define NUM_ROUNDS 32
