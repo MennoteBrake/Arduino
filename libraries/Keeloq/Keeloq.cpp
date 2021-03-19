@@ -3,12 +3,6 @@
   Written by Frank Kienast in November, 2010
 */
 
-#if defined(ARDUINO) && ARDUINO >= 100
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
-
 #include "Keeloq.h"
 
 #define KeeLoq_NLF              0x3A5C742EUL
