@@ -4,7 +4,7 @@
 */
 
 
-#include "WProgram.h"
+#include "Arduino.h"
 #include "Xtea.h"
 
 #define NUM_ROUNDS 32
