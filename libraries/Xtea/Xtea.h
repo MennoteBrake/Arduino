@@ -5,7 +5,7 @@
 #ifndef Xtea_h
 #define Xtea_h
 
-#include "WProgram.h"
+#include "Arduino.h"
 
 class Xtea
 {
